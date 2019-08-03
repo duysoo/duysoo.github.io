@@ -1,0 +1,383 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Page01
+{
+	width: 1920px;
+	height: 1080px;
+	background-color: white;
+}
+header
+{
+	width: 1920px;
+	height: 115px;
+}
+.logo
+{
+	width: 55px;
+	height: 79px;
+	float: left;
+	margin-left: 245px;
+	margin-top: 32px;
+}
+.menu
+{
+	float: right;
+	margin-right: 245px;
+	margin-top: 57px;
+}
+.menu ul
+{
+	list-style: none;
+}
+.menu ul li
+{
+	float: left;
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+    font-size: 24px;
+	padding-right: 67px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-weight: bold;
+	transition: all 0.25s ease;
+	color: black;
+}
+.menu ul li a:hover
+{
+	color: #F4465D;
+}
+.Findyournextfavoritebook
+{
+	float: left;
+	margin-left: 245px;
+	margin-top: 206px;
+	font-size: 100px;
+	font-family: "iCiel Cadena";
+}
+.text01
+{
+	margin-top: 425px;
+	margin-left: 245px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 28px;
+	color: #717171;
+}
+.Find
+{
+	width: 305px;
+	height: 76px;
+	background-color: #F4465D;
+	margin-left: 245px;
+	margin-top: 30px;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	line-height: 80px;
+	font-size: 28px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-weight: 900;
+	transition: all 0.25s ease;
+	border: solid 3px #F4465D;
+
+}
+.Find:hover
+{
+	border: solid 3px rgba(0,0,0,1.00);
+	background-color: transparent;
+	color: black;
+}
+.hinhillus
+{
+	width: 800px;
+	height: 731px;
+	padding-right: 100px;
+	padding-top: 75px;
+	float: right;
+}
+.newbook
+{
+	width: 1920px;
+	height: 1080px;
+	background-color: #F2F2F2;
+	position: relative;
+}
+.texttilte
+{
+	float: left;
+	font-family: "iCiel Cadena";
+	font-size: 48px;
+	margin-left: 245px;
+	margin-top: 200px;
+	position: absolute;
+}
+.listbook
+{
+	width: 1920px;
+	height: 490px;
+	position: absolute;
+	margin-top: 337px;
+}
+.khung
+{
+	width: 315px;
+	height: 490px;
+	margin-left: 245px;
+	position: relative;
+	
+}
+.bookcomic
+{
+	width: 315px;
+	height: 490px;
+	height: 490px;
+	position: absolute;
+	border-radius: 10px;
+	transform-style: preserve-3d;
+	transition: all 0.75s ease;
+	
+	
+}
+.bookcomic:hover
+{
+	transform: rotateY(180deg);
+	
+}
+.mattruoc
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	color: black;
+	border-radius: 10px;
+	
+}
+.matsau
+{
+	position: absolute;
+	width: 100%;	
+	height: 100%;
+	backface-visibility: hidden;
+	background: #BEBEBE;
+	color: black;
+	transform: rotateY(180deg);
+	border-radius: 10px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+}
+.newcomic
+{
+	width: 1920px;
+	height: 1080px;
+	background-color: white;
+	position: relative;
+}
+.news
+{
+	width: 1920px;
+	height: 1080px;
+	background-color: #F2F2F2;
+	position: relative;
+}
+.textnews
+{
+	width: 320px;
+	height: 220px;
+}
+.texttilte2
+{
+	float: left;
+	font-family: "iCiel Cadena";
+	font-size: 48px;
+	margin-left: 245px;
+	margin-top: 160px;
+	position: absolute;
+}
+.listnew
+{
+	width: 1920px;
+	height: 535px;
+	position: absolute;
+	margin-top: 280px;
+}
+.khung02
+{
+	width: 430px;
+	height: 521px;
+	margin-left: 48px;
+	float: left;
+	position: relative;
+}
+.newnew
+{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	border-radius: 10px;
+	border: 3px black solid;
+	position: absolute;
+	-webkit-box-shadow: 15px 15px 0 0 #000000;
+box-shadow: 15px 15px 0 0 #000000;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	transition: all 0.25s ease;
+}
+.newnew:hover
+{
+	transform: scale(1.045);
+}
+.bookme
+{
+	width: 1920px;
+	height: 1080px;
+	background-color: #C4C4C4;
+}
+
+.textbookme
+{
+	text-align: center;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 300px;
+	font-weight: 900;
+	line-height: 635px;
+	color: white;
+	-webkit-text-stroke: 5px black;
+}
+.textfindyournextfavbok
+{
+	text-align: center;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 64px;
+	font-weight: bolder;
+	color: white;
+}
+.boxlearn
+{
+	width: 570px;
+	height: 80px;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 63px;
+	margin-left: 669px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 36px;
+	line-height: 85px;
+	text-align: center;
+	font-weight:900;
+	color: black;
+	border: 3px black solid;
+	-webkit-box-shadow: 15px 15px 0 0 #000000;
+box-shadow: 15px 15px 0 0 #000000;
+	transition: all 0.25s ease;
+}
+.boxlearn:hover
+{
+	transform: scale(1.02);
+	background-color: #F4465D;
+	color: white;
+	border: 3px white solid;
+	box-shadow: 15px 15px 0 0 white;
+}
+.subcricepage
+{
+	width: 1920px;
+	height: 1080px;
+	background-color: white;
+}
+.logo02
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 300px;
+}
+.beoneofthebookme
+{
+	text-align: center;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 45px;
+	padding-top: 52px;
+	font-weight: 900;
+	letter-spacing: 5px;
+}
+.navsubscibe
+{
+	margin-top: 44px;
+	margin-left: 620px;
+	width: 680px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.navsubscibe input[placeholder="Your email address"]
+{
+	border: transparent;
+	width: 520px;
+	background-color: transparent;
+	font-size: 24px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-weight: normal;
+	letter-spacing: 2px;
+	outline: none;
+}
+.footer
+{
+	width: 1920px;
+	height: 1080px;
+	background-color: #F2F2F2;
+}
+.keepin
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 144px;
+	font-weight: 900;
+	padding-top: 150px;
+	padding-left: 1000px;
+}
+.touch
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 144px;
+	font-weight: 900;
+	padding-top: 30px;
+	padding-left: 1180px;
+}
+.textinfo
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	padding-left: 245px;
+	padding-top: 200px;
+}
+.textinfo a
+{
+	text-decoration: none;
+	color: black;
+}
+.textfollowus
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	padding-left: 245px;
+	padding-top: 70px;
+}
+.textfollowus a
+{
+	text-decoration: none;
+	color: black;
+}
+.hinhillus02
+{
+	float: left;
+	padding-top: 15px;
+	padding-left: 250px;
+}
+
+
+
+
+
+
+
+
+
+

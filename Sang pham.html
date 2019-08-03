@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sangpham</title>
+	
+	  <link href="css/jquery.nice-number.css" rel="stylesheet">
+	
+	<link href="css/main02.css" rel="stylesheet">
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	
+			<!--Wow-->
+	<link rel="stylesheet" href="css/animate.css">
+	
+	<link rel="stylesheet" href="css/site.css">
+	
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 logo col-sm-2 col-xs-4 wow fadeInDown" data-wow-delay="0.25" style="padding-top: 32px">
+				<a href="index.html"><img src="images/LOGO.png"></a>
+			</div>
+			<div class="col-sm-10 col-md-10 col-lg-10 menu wow fadeInDown" data-wow-delay="0.25s" style="padding-top: 63px">
+				<ul>
+							<li><a href="CART.html">Cart</a></li>
+							<li><a href="LOGIN & SIGN UP.html">Login</a></li>
+					<li><a href="COMIC.html">Comic</a></li>
+					<li><a href="BOOK.html">Book</a></li>
+						</ul>
+			</div>
+		</div>
+	  <div class="row">
+			<div class="col-sm-12 col-md-5 col-lg-5 productcategories wow fadeInDown" data-wow-delay="0.75s">
+				<img src="images/image 4.2.png" style="padding-left: 70px">
+			</div>
+		<div class="col-sm-12 col-md-7 col-lg-7 item wow fadeInDown" data-wow-delay="0.5s">
+			<div class="thanhphuluc">Home • Comic • Altair</div>
+			<div class="textcomic">
+				<span style="font-size:48px;font-weight: 900">ALTAIR</span><br>
+				<span style="font-size:30px;font-weight: medium">$2.50</span>
+			</div>
+			<div class="textdes">
+				The Kingdom of Türkiye and the international Balussyin stayed in the world. Part two, one different thing! Our hardware, our part Our part, part of each other, part of each other.
+			</div>
+			<div class="textdel">
+				<span style="font-size: 20px">Detail:</span>
+				<ul>
+					<li><a>• Author: Kotono Kato</a></li>
+					<li><a>• Publisher: Kim Dong </a></li>
+					<li><a>• Framework: 13x18 cm</a></li>
+					<li><a>• Pages: 224</a></li>
+					<li><a>• Release date: October 15, 2018</a></li>
+				</ul>
+			</div>
+			<div class="soluong">
+				<input type="number" value="0">
+			</div>
+			<div class="addtocart" href="#">Add to cart</div>
+		</div>
+		</div>
+		
+    
+	  <div class="row wow fadeInUp" data-wow-delay="0.5s" style="padding-top: 100px">
+			<div class="col-sm-12 col-md-5 col-lg-5 orjuststay"><span style="font-size: 20px;font-weight: bold;color: #747474">Or just stay</span><br>
+          <span style="font-size: 24px; font-weight: medium;"><a href="#" style="text-decoration: none; color: black">info@bookme.com.</a></span></div>
+			<div class="col-sm-12 col-md-7 col-lg-7 follow">
+				<span style="font-size: 20px;font-weight: bold;color: #747474">Follow up</span><br>
+				<span style="font-size: 24px; font-weight: medium;"><a href="#" style="text-decoration: none; color: black">Twitter.</a></span>
+				<span style="font-size: 24px; font-weight: medium;padding-left: 169px"><a href="#" style="text-decoration: none; color: black">Facebook.</a></span>
+				<span style="font-size: 24px; font-weight: medium;padding-left:169px"><a href="#" style="text-decoration: none;color: black">Instagram.</a></span>
+			</div>
+		</div>
+	
+		</div>
+</body>
+	<script src="js/bootstrap.min.js"></script>
+	
+	<!--Wow-->
+	<script src="js/wow.js"></script>
+	<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+	
+	<script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="js/jquery.nice-number.js"></script>
+	<script type="text/javascript">
+		$(function(){
+		  $('input[type="number"]').niceNumber();
+		});
+	</script>
+</html>

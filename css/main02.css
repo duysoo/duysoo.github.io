@@ -1,0 +1,470 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+
+.logo
+{
+	display: block;
+}
+.menu
+{
+	float: right;
+}
+.menu ul
+{
+	list-style: none;
+}
+.menu ul li
+{
+	float: right;
+	padding-left: 67px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+    font-size: 24px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-weight: bold;
+	color: black;
+	transition: all 0.25s ease;
+}
+.menu ul li a:hover
+{
+	color: #F4465D;
+}
+.textbookme
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 40px;
+	font-weight: 900;
+	text-align: center;
+}
+.textlogin
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 36px;
+	font-weight: bold;
+	padding-top: 57px;
+}
+.textcart
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 36px;
+	font-weight: 900;
+	padding-top: 57px;
+	text-align: center;
+}
+.textproduct
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-weight: bold;
+	font-size: 32px;
+}
+.itemproduct
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-weight: medium;
+	font-size: 28px;
+}
+.checkout
+{
+	width: 250px;
+	height: 38px;
+	border: 2px black solid;
+	border-radius: 50px;
+	margin-top: 20px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 20px;
+	text-align: center;
+	transition: all 0.25s ease;
+}
+.checkout:hover
+{
+	background-color: #F4465D;
+	border: 2px #F4465D solid;
+	font-weight: 900;
+	color: white;
+}
+.continueshopping
+{
+	width: 250px;
+	height: 38px;
+	border: 2px black solid;
+	border-radius: 50px;
+	margin-top: 20px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 20px;
+	text-align: center;
+	transition: all 0.2s ease;
+}
+.continueshopping:hover
+{
+	background-color: #F4465D;
+	border: 2px #F4465D solid;
+	font-weight: 900;
+	color: white;
+}
+.username
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	padding-top: 55px;
+    box-sizing: border-box;
+    border: none;
+	border-bottom: 2px solid #808080;
+	width: 500px;
+}
+.username input[placeholder="Username or email address"]
+{
+	border: transparent;
+	width: 500px;
+	background-color: transparent;
+	font-size: 20px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	outline:none;
+}
+.username input[placeholder="Your email address"]
+{
+	border: transparent;
+	width: 500px;
+	background-color: transparent;
+	font-size: 20px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	outline:none;
+}
+.password
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	padding-top: 55px;
+    box-sizing: border-box;
+    border: none;
+	border-bottom: 2px solid #808080;
+	width: 500px;
+}
+.password input[placeholder="Password"]
+{
+	border: transparent;
+	width: 500px;
+	background-color: transparent;
+	font-size: 20px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	outline:none;
+}
+.rememberme
+{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 18px;
+	padding-top: 12px;
+	border-radius: 1.5px black solid;
+	color: gray;
+	font-weight: normal;
+}
+.rememberme input
+{
+	 position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #E4E4E4;
+  margin-top: 10px;
+}
+.checkmark:before {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.rememberme:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.rememberme input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.rememberme input:checked ~ .checkmark:before {
+  display: block;
+}
+.rememberme .checkmark:before {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.lostyourpassword
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 18px;
+	color: gray;
+}
+.login 
+{
+	width: 250px;
+	height: 38px;
+	border: 2px black solid;
+	border-radius: 50px;
+	margin-left: 120px;
+	margin-top: 50px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+	transition: all 0.25s ease;
+}
+.login:hover
+{
+	background-color: #F4465D;
+	border: 2px #F4465D solid;
+	font-weight: 900;
+	color: white;
+}
+.registernewaccount
+{
+font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 36px;
+	font-weight: bold;
+	padding-top: 57px;
+	padding-left: 60px;
+}
+.textpersonal
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 18px;
+	padding-left: 60px;
+	padding-top: 50px;
+	color: gray;
+}
+.resgisterbutton
+{
+	width: 250px;
+	height: 38px;
+	border: 2px black solid;
+	border-radius: 50px;
+	margin-left: 200px;
+	margin-top: 50px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+	transition: all 0.25s ease;
+}
+.resgisterbutton:hover
+{
+	background-color: #F4465D;
+	border: 2px #F4465D solid;
+	font-weight: 900;
+	color: white;
+}
+.orjuststay
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+}
+.follow
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+}
+.productcategories
+{
+	padding-top: 80px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+}
+.productcategories ul
+{
+	list-style: none;
+}
+.productcategories ul li
+{
+	padding-top: 10px;
+}
+.productcategories ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+.thanhphuluc
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 24px;
+	font-weight: medium;
+	padding-top: 80px;
+	padding-left: 100px;
+}
+.textcomic
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	padding-left: 100px;
+}
+.textdes
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 20px;
+	padding-top: 40px;
+	padding-left: 100px;
+}
+.textdel
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	padding-left: 100px;
+}
+.textdel ul
+{
+	list-style: none;
+}
+.textdel ul li
+{
+	padding-top: 3px;
+}
+.textdel ul li a
+{
+	color: black;
+	font-weight: normal;
+	font-size: 20px;
+	text-decoration: none;
+}
+.soluong
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	float: left;
+	margin-left: 100px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.soluong input
+{
+	border: 2px solid black;
+	outline: none;
+	border-radius: 5px;
+	margin: 0 10px !important;
+	padding: 5px;
+}
+.soluong input:hover,
+.soluong input:focus
+{
+	background-color: #F4465D;
+	color: white;
+	font-weight: bold;
+	border: 2px solid #F4465D;
+}
+button
+{
+	background: white;
+	color: black;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button:hover
+{
+	background-color: #F4465D;
+	color: white;
+	font-weight: bold;
+	border: 2px solid #F4465D;
+}
+.addtocart
+{
+    width: 305px;
+	height: 40px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	border: 2px solid black;
+	border-radius: 50px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 20px;
+	transition: all 0.25s ease;
+}
+.addtocart:hover
+{
+	background-color: #F4465D;
+	border: 2px #F4465D solid;
+	font-weight: 900;
+	color: white;
+}
+.texttitle
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 42px;
+	font-weight: 900;
+}
+.filterbyprice
+{
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 48px;
+	font-weight: 900;
+}
+.itemtong
+{
+	width: 1000px;
+	height: 360px;
+	float: left;
+	padding-top: 60px;
+}
+.item01
+{
+	width: 250px;
+	height: 360px;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	padding-left: 20px;
+	float: left;
+	border-radius: 10px;
+}
+.item01:hover
+{
+	box-shadow: 0px 0px 8px 1px #CBC2C2;
+}
+.itemtong02
+{
+	width: 1000px;
+	height: 350px;
+	float: left;
+	padding-top: 60px;
+}
+.buttontong
+{
+	width: 180px;
+	height: 33px;
+	float: left;
+	margin-left: 420px;
+}
+.button001
+{
+	width: 45px;
+	height: 30px;
+	border: 2px solid black;
+	border-radius: 50px;
+	float: left;
+	font-family: Lato, "Lato Black", "Lato Hairline", "Lato Light", "Lato Semibold", "Lato Thin", "Lato Medium";
+	font-size: 18px;
+	text-align: center;
+	line-height: 28px;
+	margin-left: 10px;
+	transition: all 0.25s ease;
+}
+.button001:hover
+{
+	background-color: #F4465D;
+	border: 2px solid #F4465D;
+	font-weight: 900;
+	color: white;
+}

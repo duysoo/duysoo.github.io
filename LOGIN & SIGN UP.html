@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login and Signup</title>
+	<link href="css/main02.css" rel="stylesheet">
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	
+			<!--Wow-->
+	<link rel="stylesheet" href="css/animate.css">
+	
+	<link rel="stylesheet" href="css/site.css">
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-1 col-sm-2 col-md-2 logo col-lg-2 wow fadeInDown" data-wow-delay="0.25s" style="padding-top: 32px">
+				<a href="index.html"><img src="images/LOGO.png"></a>
+			</div>
+			<div class="col-xs-11 col-sm-10 col-md-10 col-lg-10 menu wow fadeInDown" data-wow-delay="0.25s" style="padding-top: 63px">
+				<ul>
+							<li><a href="CART.html">Cart</a></li>
+							
+							<li><a href="LOGIN & SIGN UP.html">Login</a></li>
+					<li><a href="COMIC.html">Comic</a></li>
+					<li><a href="BOOK.html">Book</a></li>
+						</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12, col-lg-12">
+				<div class="textbookme wow fadeInDown" data-wow-delay="0.5s" style="padding-top: 40px">Book ME!</div>
+			</div>
+		</div>
+		<div class="row" style="padding-top: 60px">
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-0"></div>
+			<div class="col-lg-5 col-md-5 col-sm-10 col-xs-12">
+				<div class="textlogin wow fadeInRight" data-wow-delay="0.75s">Login your account</div>
+				<div class="username wow fadeInRight" data-wow-delay="1s">
+			 <input type="text" id="fname" name="fname" placeholder="Username or email address">
+		</div>
+		<div class="password wow fadeInRight" data-wow-delay="1s">
+			<input type="text" name="fname" placeholder="Password">
+		</div>
+				 <label class="rememberme wow fadeInRight" data-wow-delay="1s">
+			<input type="checkbox" checked="checked">Remember me
+		    <span class="checkmark"></span>
+		</label>
+				<div class="login wow fadeInRight" data-wow-delay="1.25s">Login</div>
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-"></div>
+			<div class="col-lg-5 col-md-5 col-sm-11 col-xs-12">
+				<div class="registernewaccount wow fadeInRight" data-wow-delay="0.75s">Register new account</div>
+				<div class="username wow fadeInRight" data-wow-delay="1s" style="margin-left: 60px">
+					 <input type="text" name="fname" placeholder="Your email address">
+				</div>
+				<div class="textpersonal wow fadeInRight" data-wow-delay="1s">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.
+				</div>
+				<div class="resgisterbutton wow fadeInRight" data-wow-delay="1.25s">Register</div>
+			</div>
+		</div>
+	
+	  <div class="row wow fadeInUp" data-wow-delay="0.5s" style="padding-top: 200px">
+			<div class="col-md-4 col-lg-4 col-xs-12 col-sm-4 orjuststay"><span style="font-size: 20px;font-weight: bold;color: #747474">Or just stay</span><br>
+          <span style="font-size: 24px; font-weight: medium;"><a href="#" style="text-decoration: none; color: black">info@bookme.com.</a></span></div>
+			<div class="col-md-8 col-lg-8 col-xs-12 col-sm-8 follow">
+				<span style="font-size: 20px;font-weight: bold;color: #747474">Follow up</span><br>
+				<span style="font-size: 24px; font-weight: medium;"><a href="#" style="text-decoration: none; color: black">Twitter.</a></span>
+				<span style="font-size: 24px; font-weight: medium;padding-left: 169px"><a href="#" style="text-decoration: none; color: black">Facebook.</a></span>
+				<span style="font-size: 24px; font-weight: medium;padding-left:169px"><a href="#" style="text-decoration: none;color: black">Instagram.</a></span>
+			</div>
+		</div>
+		<div class="row" style="padding-top: 20px">
+				<div class="col-xs-12 col-sm-12 col-md-12, col-lg-12"></div>
+		</div>
+	</div>
+</body>
+	<script src="js/bootstrap.min.js"></script>
+	
+	<!--Wow-->
+	<script src="js/wow.js"></script>
+	<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+</html>
